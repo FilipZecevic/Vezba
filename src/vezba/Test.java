@@ -14,6 +14,10 @@ public class Test {
 		System.out.print("Cena goriva na 100km: ");
 		System.out.println(vozilo.CenaGorivaNa100Km(225) + "din.");
 		
+		Kamion kamion = new Kamion("Kamion", "Crna", vozac2);
+		System.out.println(kamion.toString());
+		System.out.print("Cena goriva na 100km: ");
+		System.out.println(kamion.CenaGorivaNa100Km(225) + "din.");
 		
 	}
 
